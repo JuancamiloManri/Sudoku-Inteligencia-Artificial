@@ -1,0 +1,18 @@
+Ensayo
+Inteligencia Artificial
+
+En este ensayo vamos a abordar la siguiente pregunta ¿En qué sentido su software es inteligente?
+Claramente resolver problemas de sudoku requiere una buena cantidad de Inteligencia, por ende debemos tener muy claros algunos conceptos que nos ayudaran a entender la base principal de nuestro programa.
+Es importante que tengamos en cuenta y que entendamos el significado de la palabra Inteligencia y la palabra Artificial.
+Si buscamos la palabra Inteligencia, está definida como la capacidad de lógica, comprensión, autoconciencia, aprendizaje, conocimiento emocional, razonamiento, planificación, creatividad, pensamiento crítico y resolución de problemas otras palabras más generales se puede describir como la capacidad de percibir o inferir información, y retenerla como conocimiento para aplicarlo a comportamientos adaptativos dentro de un entorno o contexto.
+Por otro lado tenemos la palabra Artificial  que su significado trata de un adjetivo que alude a aquello que es fabricado por el hombre: es decir, que no procede de la naturaleza. Artificial también es lo que resulta falso, ilusorio o simulado.
+Ya teniendo en cuenta estos dos significados vamos a conectar las dos palabras y definiremos el concepto principal de esta materia tan importante para nosotros los Ingenieros en Sistemas.
+La Inteligencia Artificial es la simulación de inteligencia humana por parte de las máquinas dicho de otro modo, es la disciplina que trata de crear sistemas capaces de aprender y razonar como un ser humano, aprendan de la experiencia, averigüen cómo resolver problemas ante unas condiciones dadas, contrasten información y lleven a cabo tareas lógicas.
+Con todos estos conceptos claros, vamos a responder la pregunta propuesta al inicio del ensayo.
+¿En qué sentido su software es inteligente?
+Si bien resolver sudoku 9x9 no resulta una tarea muy difícil para la máquina, para las personas que lo resuelven a mano si lo es, aunque hoy en día existen muchos algoritmos matemáticos o estrategias que se pueden aplicar para resolverlo de forma rápida y eficiente.
+Recordemos que la regla más importante para resolver un sudoku es llenar los espacios con números del 1 al 9 sin que se repitan los dígitos tanto en sentido vertical como horizontal y tampoco en cada caja de 3x3.
+De acuerdo al modo de prueba y error en que se resuelven los sudokus, implementar un software con estos parámetros resulta un poco difícil, para esto resulta muy eficiente implementar el algoritmo de Backtracking el cual consiste en encontrar una solución satisfaciendo restricciones.
+En conclusión mi software es inteligente, si lo tomamos por el lado de que si se implementa un agente, el tendrá que tomar decisiones en cuanto a que número poner en cada casilla para poder resolverlo.
+Por el lado del Backtracking es un algoritmo diferente, pero aun así sigue siendo inteligente ya que puede resolver un sudoku de forma tal que hace prueba y error con un número, como lo hacemos nosotros los seres humanos, analiza el tablero y como están posicionados los otros números y de acuerdo a esto analiza, si no es permitido este número en ninguna fila o columna, prueba con otro número y así sucesivamente busca la mejor opción y lo hace en muy poco tiempo.
+
